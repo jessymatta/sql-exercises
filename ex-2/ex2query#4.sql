@@ -1,6 +1,5 @@
 SELECT
-    student.name,
-    course.crn
+    DISTINCT course.crn
 FROM
     student,
     department,
